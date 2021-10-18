@@ -1,0 +1,50 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 75ch;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+header,
+#game {
+  text-align: center;
+}
+
+h1 {
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-size: clamp(1.5rem, 10vw, 3.5rem);
+}
+img {
+  width: clamp(100px, 50%, 200px);
+}
+#cavemen-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+#caveman-2 {
+  transform: scaleX(-1);
+}
+#story {
+  margin: 0 auto 5rem;
+  max-width: 50ch;
+  font-size: 1rem;
+}
+#story p {
+  margin: 0.5rem auto;
+}
+button {
+  outline: none;
+  border: 1px solid black;
+  width: 70px;
+  padding: 0.5em 0.3em;
+  margin: 0.5rem;
+  border-radius: 0.3em;
+}
+button:hover {
+    cursor: pointer;
+}
